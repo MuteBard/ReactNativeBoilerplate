@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../actions/Test.actions';
+import Img from '../components/Image'
 
 class FilterPage extends Component{
 
@@ -26,6 +27,8 @@ class FilterPage extends Component{
                 <Text>a b c</Text>  
                 {this.renderFilters()} 
                 <Text>{this.props.test}</Text> 
+                <Img src="https://cdn.discordapp.com/attachments/268197604494409729/367779237790482432/Bane_of_the_Brella.png"/>
+                <Text>h i j</Text> 
             </View>
         )
     }
